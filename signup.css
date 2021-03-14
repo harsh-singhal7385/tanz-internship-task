@@ -1,0 +1,41 @@
+
+#login-reference{
+    color:grey;
+}
+#mydiv{
+    /* min-width: %; */
+    max-width: 40%;
+    /* margin-left:auto; */
+    /* margin-right: auto; */
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+@media (max-width:890px){
+    #mydiv{
+        min-width:70%;
+        /* max-width: 70%; */
+    }
+}
+@media (max-width:680px){
+    #mydiv{
+        min-width:80%;
+    }
+}
+@media (max-width:470px){
+    #mydiv{
+        min-width:95%;
+    }
+}
+@media (max-width:370px){
+    #mydiv{
+        min-width:100%;
+    }
+}
+
+.outer-class{
+    /* width:50%% */
+    /* background-color: blue; */
+    width: 100%;
+}
